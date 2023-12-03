@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SAKADAB I lab</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="JS Dependencies/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    <script type="text/javascript">
+
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        });
+    
+        $(document).ready(function () {
+            $('.menu h4').click(function () {
+                $("nav ul").toggleClass("active");
+            });
+        });
+
+    </script>
+    <script>
+
+    </script>
+  
+    
+        <style>
+          nav > ul > li > a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase; /*for capitalisation of letters */
+    line-height: 80px;
+    padding: 5px 20px;
+    transition: .5s;   
+}
+        </style>
+	</head>
+<body>
+  <div class="responsive-bar">
+    <div class="logo">
+        <img src="Images/SAKADAB Dark Mode.png" alt="Dark Mode Logo" id="darkModeLogo"/>
+        </div>
+        <div class="menu">
+        <h4>Menu</h4>
+        </div>
+    </div>
+<nav>
+    <div class="logo">
+        <img src="Images/Sakadab Light Mode.png" alt="Light Mode Logo" id="lightModeLogo"/>
+      </div>
+     <ul>
+        <li><a href="index.html">Home</a></li>
+         <li><a href="profile2.html">Profile</a></li>
+         <li><a href="narm.html">NARM</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+         <li><a href="">SIP</a></li>
+        </ul>
+    </nav>
+
+    <div class="wave-container">
+      <img src="Images/BannerBG.png" class="banner" alt ="Title of image" alt="alt text here">
+      <div class = "big">
+        <h1> SAKADAB </h1>
+        </div>
+            <div class = "subtitle">
+                <h2> I lab.</h2>
+            </div>
+            
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f05454" fill-opacity="1" d="M0,288L48,261.3C96,235,192,181,288,144C384,107,480,85,576,112C672,139,768,213,864,229.3C960,245,1056,203,1152,165.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    </div>
+	<section class = "section2">
+    <h3 class = "largequote"> <i> "Kung kaya nila, kaya rin natin" </i></h3>
+    <hr size="5px" width="75%" color="white">
+<div class="center-justified">
+    <p> 
+        
+        SAKADAB or the <u> Sa</u>mahang may mga iba't ibang <u> Ka</u>kayanan sa <u> Dab</u>aw <br>
+    is an organization aimed to help PWD's or Persons with Disabilities who wanted to be self-sufficient <br> 
+    in their livelihood and take control of their lives. <br>
+    <br>
+    They are situated in Los Amigos, Tugbok District, Davao City near the Barangay Hall. <br>
+    They are currently selling their merchandise such as the Philippine Flag beaded wallet. <br>
+    They were also the ones who competed in the Kadayawan Fashion Show with their scarf. <br>
+
+
+    As Group 5, we strived to profile their status and how their system worked.
+	</section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f05454" fill-opacity="1" d="M0,288L48,261.3C96,235,192,181,288,144C384,107,480,85,576,112C672,139,768,213,864,229.3C960,245,1056,203,1152,165.3C1248,128,1344,96,1392,80L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<br> 
+
+<h2 class = "section3"> Meet the Designer. </h2>
+<br>
+
+<div id="card">
+	<h1>Yuel Nikolai E. Gatus</h1>
+    <div class="image-crop">
+        <img id="avatar" src="Images/gatus.jpg" alt="User Avatar"> </img>
+        
+    </div>
+    <p id="username">@cube.z</p>
+    
+	<div id="bio">
+		<p>Replace with your own description. </p>
+	</div>
+	<div id="stats">
+		<div class="col">
+			<p class="stat">5</p>
+			<p class="label">Posts</p>
+		</div>
+				<div class="col">
+			<p class="stat">3</p>
+			<p class="label">Goals</p>
+		</div>
+				<div class="col">
+			<p class="stat">2</p>
+			<p class="label">Brain</p>
+		</div>
+	</div>
+	<div id="buttons">
+        <a href="https://www.instagram.com/cube_.z/" target="_blank">
+            <button>Follow</button>
+        </a>
+    <a href="https://discordapp.com/users/697759556373315674">
+        <button id="msg">Message</button>
+    </a>
+</div>
+</div>
+
+
+
+
+
+    
+</body>
+</html>
+
